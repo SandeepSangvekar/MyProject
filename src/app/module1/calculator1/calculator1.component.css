@@ -1,0 +1,17 @@
+.box {
+    width: 50%;
+    height: 800px;
+    float: left;
+    background-color: rgb(247, 241, 232);
+    text-align: center;
+}
+
+input {
+    height: 21px;
+    width: 200px;
+}
+
+button {
+    width: 80px;
+    height: 25px;
+}

@@ -1,0 +1,15 @@
+<section class="box">
+    <h1>
+        Module 1
+    </h1>
+    <h2>Calculator</h2>
+    <div>
+        <span>X: <input type="number" [(ngModel)]="num1" name="num1"></span>
+        <span style="margin-left: 50px">Y: <input type="number" [(ngModel)]="num2" name="num2"></span><br/><br/>
+        <button (click)="cal_add()">ADD</button>
+        <button (click)="cal_sub()">SUB</button>
+        <button (click)="cal_multi()">MULTIPLY</button>
+        <button (click)="cal_div()">DIVIDE</button>
+        <h3>Result : {{result}} </h3>
+    </div>
+</section>

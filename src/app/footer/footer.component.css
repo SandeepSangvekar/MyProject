@@ -1,0 +1,9 @@
+.root {
+    border: 1px solid black;
+    padding: 30px;
+    color: white;
+    margin-top: 800px;
+    background-color: gray;
+    text-align: center;
+    font-weight: bold;
+}

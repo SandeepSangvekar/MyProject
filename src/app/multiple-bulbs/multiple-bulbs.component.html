@@ -1,0 +1,7 @@
+<section>
+    <h2>Multiple bulbs On/Off</h2>
+    <span *ngFor="let light of bulb" class="inline-bulb">
+      <img [src]="light.imgPath"> <br/><button (click)="change1(light)">{{light.btnStatus}}</button>
+    </span>
+
+</section>

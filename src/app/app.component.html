@@ -1,0 +1,69 @@
+<!-- <div style="text-align: center;" class="main">
+    <h1 style="color: red;">Welcome to {{title}}</h1>
+    <section>
+        <h2>Interpolation</h2>
+        <div [class]="styleOfId">
+            <img src="{{photo}}" width="150px" />
+            <p><b>Name</b> : {{name}}</p>
+            <p><b>Age</b> : {{age}}</p>
+            <p><b>Address</b> : {{address}}</p>
+        </div>
+    </section>
+    <section>
+        <h2>Property Binding</h2>
+        <button [disabled]="status">Click Me!!</button>
+    </section>
+
+    <section>
+        <h2>Two way data binding</h2>
+        <p>Counter: {{ counter }}</p>
+        <input type="text" [(ngModel)]="counter">
+        <button (click)="increasevalue()">Increase</button>
+        <button (click)="decreasvalue()">Decrease</button>
+    </section>
+    <section>
+        <h2>Bulb On/Off</h2>
+        <img [src]="path" width="120px" [style.border]="'4px solid gray'" [style.padding]="'10px'">
+        <div></div><br>
+        <button style="width: 80px;height: 25px;" (click)="change()">{{status}}</button>
+    </section>
+    <section>
+        <h2>Calculator</h2>
+        <div>
+            <span>X: <input type="number" [(ngModel)]="num1" name="num1"></span>
+            <span style="margin-left: 50px">Y: <input type="number" [(ngModel)]="num2" name="num2"></span><br/><br/>
+            <button (click)="cal_add()">ADD</button>
+            <button (click)="cal_sub()">SUB</button>
+            <button (click)="cal_multi()">MULTIPLY</button>
+            <button (click)="cal_div()">DIVIDE</button>
+            <h3>Result : {{result}} </h3>
+        </div>
+    </section>
+    <section>
+        <h2 [class.headColor]="true">Class style css</h2>
+    </section>
+    <section>
+        <h2>Multiple bulbs On/Off</h2>
+        <span *ngFor="let light of bulb" class="inline-bulb">
+            <img [src]="light.imgPath"><br/> <button (click)="change1(light)">{{light.btnStatus}}</button>
+        </span>
+
+    </section>
+
+</div> -->
+
+<!-- <h2>Result is: {{resultnew}}</h2> -->
+<div class="root">
+    <!-- <app-parent></app-parent> -->
+    <!-- <app-bulb-task></app-bulb-task> -->
+    <!-- <app-multiple-bulbs></app-multiple-bulbs> -->
+    <!-- <app-component1></app-component1> -->
+    <!-- <app-calculator></app-calculator> -->
+    <!-- <app-header></app-header> -->
+    <!-- <app-calculator1></app-calculator1>
+    <app-bulbs1></app-bulbs1> -->
+    <router-outlet></router-outlet>
+
+    <!-- <app-footer></app-footer> -->
+
+</div>
